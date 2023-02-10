@@ -1,0 +1,46 @@
+:root {
+    --letters: #7286D3;
+    --fondo: #FFF2F2;
+    --input: #E5E0FF;
+    --second-letters: #8EA7E9;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body {
+    background-color: var(--fondo);
+    font-family: 'Roboto Mono', monospace;
+}
+#titulo {
+    color: var(--letters);
+    text-align: center;
+}
+#madre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#divH1 {
+    background-color: var(--input);
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+input {
+    background-color: var(--input);
+     border-radius: 20px;
+     width: 200px;
+     height: 30px;
+     margin: 10px;
+     font-family: 'Roboto Mono', monospace;
+     text-align: center;
+}
+label {
+    color: var(--letters);
+}
